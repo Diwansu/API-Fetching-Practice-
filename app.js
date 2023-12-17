@@ -8,7 +8,7 @@
      )
     .then((res)=>{
       console.log(res) 
-       const articleContainer = res.data.article ;
+       const articleContainer = res.data.articles ;
          articleContainer.forEach ((article)=>{
            const articleStore = document.createElement('div') 
              articleStore.setAttribute('id','article') ;
