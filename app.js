@@ -30,4 +30,6 @@
   }
 
   getData();
+
+  console.log("Thank you") ;
  
